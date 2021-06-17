@@ -148,7 +148,7 @@
                                         <!-- * * This can be a video, image, or just about anything else.-->
                                         <!-- * * Set the max width of your media to 100% and the height to-->
                                         <!-- * * 100% like the demo example below.-->
-                                        <video
+                                        <!-- <video
                                             muted="muted"
                                             autoplay=""
                                             loop=""
@@ -161,7 +161,14 @@
                                                 src="../assets/img/demo-screen.mp4"
                                                 type="video/mp4"
                                             />
-                                        </video>
+                                        </video> -->
+                                        <img
+                                            src="../assets/img/Login Screen.png"
+                                            style="
+                                                max-width: 100%;
+                                                height: 100%;
+                                            "
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -336,20 +343,13 @@
                                         <!-- * * This can be a video, image, or just about anything else.-->
                                         <!-- * * Set the max width of your media to 100% and the height to-->
                                         <!-- * * 100% like the demo example below.-->
-                                        <video
-                                            muted="muted"
-                                            autoplay=""
-                                            loop=""
+                                        <img
+                                            src="../assets/img/Map Screen.png"
                                             style="
                                                 max-width: 100%;
                                                 height: 100%;
                                             "
-                                        >
-                                            <source
-                                                src="../assets/img/demo-screen.mp4"
-                                                type="video/mp4"
-                                            />
-                                        </video>
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -404,7 +404,7 @@
                     </h2>
                     <a
                         class="btn btn-outline-light py-3 px-4 rounded-pill"
-                        href="https://startbootstrap.com/theme/new-age"
+                        href="#"
                         target="_blank"
                         >Download for free</a
                     >
@@ -447,8 +447,8 @@
                     <div class="mb-2">
                         &copy; Flares 2021. All Rights Reserved.
                     </div>
-                    <sidebar-link to="/privacy-policy" name="Privacy" />
-                    <!-- <a href="#!">Privacy</a> -->
+                    <!-- <sidebar-link to="/privacy-policy" name="Privacy" /> -->
+                    <a href="/privacy-policy">Privacy</a>
                     <span class="mx-1">&middot;</span>
                     <a href="#!">Terms</a>
                     <span class="mx-1">&middot;</span>
