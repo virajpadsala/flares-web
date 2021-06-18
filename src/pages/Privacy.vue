@@ -1,7 +1,7 @@
 <template>
     <div class="m-3">
         <img src="@/assets/img/Logo.png" alt="" height="30px" />
-        <p dir="ltr">Last Revised: Jul 22, 2019</p>
+        <p dir="ltr">Last Revised: Jun 22, 2021</p>
 
         <p dir="ltr">
             <strong>Flares</strong> (&ldquo;Flares&rdquo;, &ldquo;we&rdquo;, or
@@ -14,7 +14,7 @@
 
         <p dir="ltr">&nbsp;</p>
 
-        <p>How We Collect and Use Information</p>
+        <p><strong>How We Collect and Use Information</strong></p>
 
         <p dir="ltr">
             We collect the following types of information about you:
@@ -40,11 +40,6 @@
         </p>
 
         <p dir="ltr">
-            <strong>Contacts: </strong>We collect your contacts in order to find
-            which friends of yours are using <strong>Flares</strong>.
-        </p>
-
-        <p dir="ltr">
             <strong>Device information: </strong>We collect device information
             (name, model &amp; battery level) from the device(s) you use to
             access our services.
@@ -52,7 +47,7 @@
 
         <h2 dir="ltr">&nbsp;</h2>
 
-        <p>Information we receive about you from others:</p>
+        <p><strong>Information we receive about you from others:</strong></p>
 
         <p dir="ltr">
             <strong>Social Media.</strong> When you interact with our app
@@ -62,7 +57,7 @@
 
         <h2 dir="ltr">&nbsp;</h2>
 
-        <p>Sharing of Your Information</p>
+        <p><strong>Sharing of Your Information</strong></p>
 
         <ul>
             <li>
@@ -100,7 +95,7 @@
 
         <h2 dir="ltr">&nbsp;</h2>
 
-        <p>How we protect your information</p>
+        <p><strong>How we protect your information</strong></p>
 
         <p dir="ltr">
             <strong>Flares</strong> cares about the security of your information
@@ -118,7 +113,7 @@
 
         <h2 dir="ltr">&nbsp;</h2>
 
-        <p>Your Choices About Your Information</p>
+        <p><strong>Your Choices About Your Information</strong></p>
 
         <p dir="ltr">
             You may, of course, decline to submit any personal information
@@ -132,14 +127,14 @@
             personal information at any time by logging in to your account. If
             you have any questions about reviewing or modifying your account
             information, you can contact us directly at
-            <a href="mailto:contact@synchronise.in" target="_blank"
-                >contact@synchronise.in</a
+            <a href="mailto:contact@flares.me" target="_blank"
+                >contact@flares.me</a
             >.
         </p>
 
         <h2 dir="ltr">&nbsp;</h2>
 
-        <p>Links to Other Web Sites and Services</p>
+        <p><strong>Links to Other Web Sites and Services</strong></p>
 
         <p dir="ltr">
             We are not responsible for the practices employed by websites or
@@ -155,7 +150,7 @@
 
         <h2 dir="ltr">&nbsp;</h2>
 
-        <p>Changes to Our Privacy Policy</p>
+        <p><strong>Changes to Our Privacy Policy</strong></p>
 
         <p dir="ltr">
             <strong>Flares</strong> may, in its sole discretion, modify or

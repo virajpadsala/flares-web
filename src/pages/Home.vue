@@ -55,7 +55,7 @@
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
                             <h1 class="display-1 lh-1 mb-3">
-                                Showcase your app beautifully.
+                                Make your trip easy with app.
                             </h1>
                             <p class="lead fw-normal text-muted mb-5">
                                 Launch your mobile app landing page faster with
