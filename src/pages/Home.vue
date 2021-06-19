@@ -65,10 +65,10 @@
                                 Make your trip easy with app.
                             </h1>
                             <p class="lead fw-normal text-muted mb-5">
-                                Track your loved ones in real-time. Get smart
-                                notifications as a family member enters or
-                                leaves a location. Make your trip with our
-                                user-friendly interface and much more.
+                                Track your loved ones in real-time. Create group
+                                & send location to gorup or individual. Make
+                                your trip with our user-friendly interface and
+                                much more.
                             </p>
                             <div
                                 class="
@@ -192,7 +192,8 @@
                     <div class="col-xl-8">
                         <div class="h2 fs-1 text-white mb-4">
                             Track your family and loved ones with the best GPS
-                            based location tracker. Flares is user-friendly
+                            based location tracker.Create group & send location
+                            to gorup or individual. Flares is user-friendly
                             interface makes it easy for anyone to know location
                             of their contacts in real-time!"
                         </div>
@@ -241,12 +242,10 @@
                                                 mb-3
                                             "
                                         ></i>
-                                        <h3 class="font-alt">
-                                            Smart Notifications
-                                        </h3>
+                                        <h3 class="font-alt">Share Trip</h3>
                                         <p class="text-muted mb-0">
-                                            Setup and get notified for low
-                                            battery or location based events
+                                            Share trip to gorup or individual
+                                            for tracking.
                                         </p>
                                     </div>
                                 </div>
