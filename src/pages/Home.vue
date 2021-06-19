@@ -24,8 +24,16 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li class="nav-item">
+                            <a class="nav-link me-lg-3" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link me-lg-3" href="#features"
                                 >Features</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-3" href="#contactus"
+                                >Contact Us</a
                             >
                         </li>
                         <li class="nav-item">
@@ -36,8 +44,7 @@
                     </ul>
                     <button
                         class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"
-                        data-bs-toggle="modal"
-                        data-bs-target="#feedbackModal"
+                        v-b-modal.feedbackModal
                     >
                         <span class="d-flex align-items-center">
                             <i class="bi-chat-text-fill me-2"></i>
@@ -49,7 +56,7 @@
         </nav>
         <!-- Mashead header-->
         <header class="masthead">
-            <div class="container px-5">
+            <div class="container px-5" id="home">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
@@ -58,9 +65,10 @@
                                 Make your trip easy with app.
                             </h1>
                             <p class="lead fw-normal text-muted mb-5">
-                                Launch your mobile app landing page faster with
-                                this free, open source theme from Start
-                                Bootstrap!
+                                Track your loved ones in real-time. Get smart
+                                notifications as a family member enters or
+                                leaves a location. Make your trip with our
+                                user-friendly interface and much more.
                             </p>
                             <div
                                 class="
@@ -183,8 +191,10 @@
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
                         <div class="h2 fs-1 text-white mb-4">
-                            "An intuitive solution to a common problem that we
-                            all face, wrapped up in a single app!"
+                            Track your family and loved ones with the best GPS
+                            based location tracker. Flares is user-friendly
+                            interface makes it easy for anyone to know location
+                            of their contacts in real-time!"
                         </div>
                         <img src="@/assets/img/Logo.png" alt="" height="30px" />
                     </div>
@@ -210,10 +220,12 @@
                                                 mb-3
                                             "
                                         ></i>
-                                        <h3 class="font-alt">Device Mockups</h3>
+                                        <h3 class="font-alt">
+                                            Location Tracking
+                                        </h3>
                                         <p class="text-muted mb-0">
-                                            Ready to use HTML/CSS device
-                                            mockups, no Photoshop required!
+                                            Know whereabouts of your loved ones
+                                            in real-time 24/7.
                                         </p>
                                     </div>
                                 </div>
@@ -229,10 +241,12 @@
                                                 mb-3
                                             "
                                         ></i>
-                                        <h3 class="font-alt">Flexible Use</h3>
+                                        <h3 class="font-alt">
+                                            Smart Notifications
+                                        </h3>
                                         <p class="text-muted mb-0">
-                                            Put an image, video, animation, or
-                                            anything else in the screen!
+                                            Setup and get notified for low
+                                            battery or location based events
                                         </p>
                                     </div>
                                 </div>
@@ -252,8 +266,8 @@
                                         ></i>
                                         <h3 class="font-alt">Free to Use</h3>
                                         <p class="text-muted mb-0">
-                                            As always, this theme is free to
-                                            download and use for any purpose!
+                                            As always, this app is free to
+                                            download and use for Tracking!
                                         </p>
                                     </div>
                                 </div>
@@ -269,10 +283,13 @@
                                                 mb-3
                                             "
                                         ></i>
-                                        <h3 class="font-alt">Open Source</h3>
+                                        <h3 class="font-alt">
+                                            Access Anywhere
+                                        </h3>
                                         <p class="text-muted mb-0">
-                                            Since this theme is MIT licensed,
-                                            you can use it commercially!
+                                            Flares available for all mobile
+                                            devices Android, iOS, iPad and much
+                                            more.
                                         </p>
                                     </div>
                                 </div>
@@ -359,54 +376,21 @@
             </div>
         </section>
         <!-- Basic features section-->
-        <section class="bg-light">
-            <div class="container px-5">
-                <div
-                    class="
-                        row
-                        gx-5
-                        align-items-center
-                        justify-content-center justify-content-lg-between
-                    "
-                >
-                    <div class="col-12 col-lg-5">
-                        <h2 class="display-4 lh-1 mb-4">
-                            Enter a new age of web design
-                        </h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">
-                            This section is perfect for featuring some
-                            information about your application, why it was
-                            built, the problem it solves, or anything else!
-                            There's plenty of space for text here, so don't
-                            worry about writing too much.
-                        </p>
-                    </div>
-                    <div class="col-sm-8 col-md-6">
-                        <div class="px-5 px-sm-0">
-                            <img
-                                class="img-fluid rounded-circle"
-                                src="https://source.unsplash.com/u8Jn2rzYIps/900x900"
-                                alt="..."
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <!-- Call to action section-->
-        <section class="cta">
+        <section class="cta" id="contactus">
             <div class="cta-content">
                 <div class="container px-5">
-                    <h2 class="text-white display-1 lh-1 mb-4">
-                        Stop waiting.
-                        <br />
-                        Start building.
+                    <h2 class="text-center text-white font-alt mb-4">
+                        CONTACT US
                     </h2>
-                    <a
-                        class="btn btn-outline-light py-3 px-4 rounded-pill"
-                        href="#"
-                        target="_blank"
-                        >Download for free</a
+                    <h3 class="font-alt text-white">
+                        Our support team is available help you with any question
+                        you might have. We usually respond to all queries within
+                        one business day. Reach Flares support anytime by Email
+                        support AT flares.me
+                    </h3>
+
                     >
                 </div>
             </div>
@@ -414,9 +398,13 @@
         <!-- App badge section-->
         <section class="bg-gradient-primary-to-secondary" id="download">
             <div class="container px-5">
-                <h2 class="text-center text-white font-alt mb-4">
-                    Get the app now!
-                </h2>
+                <h1 class="text-center text-white font-alt mb-4">
+                    HOW TO DOWNLOAD FLARES APP?
+                </h1>
+                <div class="text-center text-white font-alt mb-4">
+                    Follow the links below to download Flares application for
+                    Android or iOS platform.
+                </div>
                 <div
                     class="
                         d-flex
@@ -451,41 +439,20 @@
                     <a href="/privacy-policy">Privacy</a>
                     <span class="mx-1">&middot;</span>
                     <a href="#!">Terms</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">FAQ</a>
                 </div>
             </div>
         </footer>
         <!-- Feedback modal-->
-        <div
+        <!-- <div
             class="modal fade"
             id="feedbackModal"
             tabindex="-1"
             aria-labelledby="feedbackModalLabel"
             aria-hidden="true"
-        >
+        > -->
+        <b-modal id="feedbackModal" title=" Send feedback" hide-footer>
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
-                    <div
-                        class="
-                            modal-header
-                            bg-gradient-primary-to-secondary
-                            p-4
-                        "
-                    >
-                        <h5
-                            class="modal-title font-alt text-white"
-                            id="feedbackModalLabel"
-                        >
-                            Send feedback
-                        </h5>
-                        <button
-                            class="btn-close btn-close-white"
-                            type="button"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                        ></button>
-                    </div>
                     <div class="modal-body border-0 p-4">
                         <form>
                             <div class="form-floating mb-4">
@@ -536,12 +503,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </b-modal>
     </div>
 </template>
-<style>
-@import "../assets/css/home.css";
-</style>
+
 <script>
 export default {
     data() {
@@ -567,4 +532,5 @@ export default {
 };
 </script>
 <style>
+@import "../assets/css/home.css";
 </style>

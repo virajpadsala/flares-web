@@ -9,11 +9,19 @@ import "bootstrap/dist/css/bootstrap.css";
 import "@/assets/sass/paper-dashboard.scss";
 import "@/assets/css/themify-icons.css";
 
+import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
+
+// Import Bootstrap an BootstrapVue CSS files (order is important)
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue/dist/bootstrap-vue.css";
+
 export default {
   install(Vue) {
     Vue.use(GlobalComponents);
     Vue.use(GlobalDirectives);
     Vue.use(SideBar);
     Vue.use(Notify);
+    Vue.use(BootstrapVue);
+    Vue.use(IconsPlugin);
   }
-}
+};
