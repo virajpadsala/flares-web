@@ -450,7 +450,7 @@
                     <!-- <sidebar-link to="/privacy-policy" name="Privacy" /> -->
                     <a href="/privacy-policy">Privacy</a>
                     <span class="mx-1">&middot;</span>
-                    <a href="#!">Terms</a>
+                    <a href="/term-of-condition">Terms</a>
                     <span class="mx-1">&middot;</span>
                     <a href="#!">FAQ</a>
                 </div>

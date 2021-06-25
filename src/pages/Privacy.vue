@@ -19,7 +19,7 @@
         <p dir="ltr">
             We collect the following types of information about you:
         </p>
-
+        
         <p dir="ltr">
             <strong>Login:</strong> We are using Facebook Account Kit for mobile
             number verification. We collect only verified mobile number by using

@@ -12,6 +12,7 @@ import Typography from "@/pages/Typography.vue";
 import TableList from "@/pages/TableList.vue";
 import Home from "@/pages/Home.vue";
 import Privacy from "@/pages/Privacy.vue";
+import Terms from "@/pages/terms.vue";
 
 const routes = [
   {
@@ -21,6 +22,10 @@ const routes = [
   {
     path: "/privacy-policy",
     component: Privacy
+  },
+  {
+    path: "/term-of-condition",
+    component: Terms
   },
   {
     path: "/admin",
