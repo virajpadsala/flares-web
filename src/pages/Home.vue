@@ -9,19 +9,16 @@
                 <a class="navbar-brand fw-bold" href="#page-top">
                     <img src="@/assets/img/Logo.png" alt="" height="30px" />
                 </a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarResponsive"
-                    aria-controls="navbarResponsive"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    Menu
-                    <i class="bi-list"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+                <b-navbar-toggle target="nav-collapse">Menu</b-navbar-toggle>
+                <b-collapse id="nav-collapse" is-nav>
+                    <b-navbar-nav class="ml-auto">
+                        <b-nav-item href="#home">Home</b-nav-item>
+                        <b-nav-item href="#features">Features</b-nav-item>
+                        <b-nav-item href="#contactus">Contact Us</b-nav-item>
+                        <b-nav-item href="#download">Download</b-nav-item>
+                    </b-navbar-nav>
+                </b-collapse>
+                <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li class="nav-item">
                             <a class="nav-link me-lg-3" href="#home">Home</a>
@@ -51,7 +48,7 @@
                             <span class="small">Send Feedback</span>
                         </span>
                     </button>
-                </div>
+                </div> -->
             </div>
         </nav>
         <!-- Mashead header-->
@@ -379,18 +376,91 @@
         <!-- Call to action section-->
         <section class="cta" id="contactus">
             <div class="cta-content">
-                <div class="container px-5">
-                    <h2 class="text-center text-white font-alt mb-4">
-                        CONTACT US
-                    </h2>
-                    <h3 class="font-alt text-white">
-                        Our support team is available help you with any question
-                        you might have. We usually respond to all queries within
-                        one business day. Reach Flares support anytime by Email
-                        support AT flares.me
-                    </h3>
-
-                    >
+                <div class="row">
+                    <div class="col-lg-4 px-5">
+                        <h2 class="text-center text-white font-alt mb-4">
+                            CONTACT US
+                        </h2>
+                        <h3 class="font-alt text-white">
+                            Our support team is available help you with any
+                            question you might have. We usually respond to all
+                            queries within one business day. Reach Flares
+                            support anytime by Email support AT flares.me
+                        </h3>
+                        >
+                    </div>
+                    <div class="col-lg-8">
+                        <div
+                            id="feedbackModal"
+                            title=" Send feedback"
+                            hide-footer
+                        >
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body border-0 p-4">
+                                        <form>
+                                            <div class="form-floating mb-4">
+                                                <input
+                                                    class="form-control"
+                                                    id="inputName"
+                                                    type="text"
+                                                    placeholder="Enter your name..."
+                                                />
+                                                <label for="inputName"
+                                                    >Name</label
+                                                >
+                                            </div>
+                                            <div class="form-floating mb-4">
+                                                <input
+                                                    class="form-control"
+                                                    id="inputEmail"
+                                                    type="email"
+                                                    placeholder="name@example.com"
+                                                />
+                                                <label for="inputEmail"
+                                                    >Email address</label
+                                                >
+                                            </div>
+                                            <div class="form-floating mb-4">
+                                                <input
+                                                    class="form-control"
+                                                    id="inputPhone"
+                                                    type="tel"
+                                                    placeholder="(123) 456-7890"
+                                                />
+                                                <label for="inputPhone"
+                                                    >Phone number</label
+                                                >
+                                            </div>
+                                            <div class="form-floating mb-4">
+                                                <textarea
+                                                    class="form-control"
+                                                    id="inputMessage"
+                                                    placeholder="Enter your message here..."
+                                                    style="height: 10rem"
+                                                ></textarea>
+                                                <label for="inputMessage"
+                                                    >Message</label
+                                                >
+                                            </div>
+                                            <div class="d-grid">
+                                                <button
+                                                    class="
+                                                        btn btn-primary
+                                                        rounded-pill
+                                                        py-3
+                                                    "
+                                                    type="submit"
+                                                >
+                                                    Submit
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

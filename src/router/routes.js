@@ -13,6 +13,7 @@ import TableList from "@/pages/TableList.vue";
 import Home from "@/pages/Home.vue";
 import Privacy from "@/pages/Privacy.vue";
 import Terms from "@/pages/terms.vue";
+import ResetPassword from "@/pages/ResetPassword.vue";
 
 const routes = [
   {
@@ -26,6 +27,10 @@ const routes = [
   {
     path: "/term-of-condition",
     component: Terms
+  },
+  {
+    path: "/reset-password",
+    component: ResetPassword
   },
   {
     path: "/admin",
