@@ -1,6 +1,7 @@
 <template>
-    <div class="m-3">
+    <div class="m-5">
         <img src="@/assets/img/Logo.png" alt="" height="30px" />
+        <h1>Privacy Policy</h1>
         <p dir="ltr">Last Revised: Jun 22, 2021</p>
 
         <p dir="ltr">
@@ -19,7 +20,7 @@
         <p dir="ltr">
             We collect the following types of information about you:
         </p>
-        
+
         <p dir="ltr">
             <strong>Login:</strong> We are using Facebook Account Kit for mobile
             number verification. We collect only verified mobile number by using
