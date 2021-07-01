@@ -120,7 +120,7 @@ export default {
     validations: {
         password: {
             required,
-            minLength: minLength(6),
+            minLength: minLength(8),
             maxLength: maxLength(18),
         },
         confirmPassword: {
@@ -130,18 +130,35 @@ export default {
     },
     methods: {
         doLogin() {
-            console.log("clicked");
             this.submitted = true;
             this.$v.$touch();
             if (!this.$v.$invalid) {
                 console.log("call");
+                let $vm = this;
                 this.$http
-                    .get(`http://localhost:4600/countries`)
-                    .then(function (resp) {
-                        console.log(resp);
+                    .post(
+                        process.env.VUE_APP_APIURL +
+                            `${"auth/change-password"}`,
+                        {
+                            password: $vm.password,
+                            token: this.$route.query.key,
+                        }
+                    )
+                    .then((resp) => {
+                        $vm.$bvToast.toast("Success", {
+                            title: `Your password is reset sccuessfully`,
+                            variant: "success",
+                            autoHideDelay: 5000,
+                            appendToast: true,
+                        });
                     })
                     .catch(function (err) {
-                        console.log(err);
+                        $vm.$bvToast.toast("Error", {
+                            title: `Invalid token`,
+                            variant: "error",
+                            autoHideDelay: 5000,
+                            appendToast: true,
+                        });
                     });
             }
         },
