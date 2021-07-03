@@ -1,735 +1,659 @@
 <template>
-    <div class="m-5">
-        <img src="@/assets/img/Logo.png" alt="" height="30px" />
-        <h1>Terms of Service</h1>
-        <p>
-            Welcome to flares.me, the website and online service of
-            flares, Inc. (“Company,” “we,” or “us”). This page explains the
-            terms by which you may use our online and/or mobile services, web
-            site, and software provided on or in connection with the service
-            (collectively the “Service”). By accessing or using the Service, you
-            signify that you have read, understood, and agree to be bound by
-            this Terms of Use Agreement (“Agreement”) and to the collection and
-            use of your information as set forth in the flares Privacy Policy,
-            whether or not you are a registered user of our Service. This
-            Agreement applies to all visitors, users, and others who access or
-            use the Service (“Users”).
-        </p>
-        <p>
-            PLEASE READ THIS AGREEMENT CAREFULLY TO ENSURE THAT YOU UNDERSTAND
-            EACH PROVISION. THIS AGREEMENT CONTAINS A MANDATORY ARBITRATION OF
-            DISPUTES PROVISION THAT REQUIRES THE USE OF ARBITRATION ON AN
-            INDIVIDUAL BASIS TO RESOLVE DISPUTES, RATHER THAN JURY TRIALS OR
-            CLASS ACTIONS. BY ACCESSING OR USING THE SERVICE, YOU INDICATE YOUR
-            CONSENT TO THIS AGREEMENT.
-        </p>
+    <div class="page">
+        <input id="en" checked="checked" type="radio" name="languages" />
+        <header class="header">
+            <div class="container">
+                <span class="logo">Terms and Conditions for Flares</span>
+            </div>
+        </header>
+        <div class="subnav">
+            <div class="container">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"
+                    ><span class="navicon"></span>
+                    <span class="label-name">Languages</span></label
+                >
+                <ul class="menu">
+                    <li class="en language_label active" label-language="en">
+                        <label for="en">English</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-        <h2>1. Use of the Service</h2>
-        <h3>A. Eligibility</h3>
-        <p>
-            You may use the Service only if you can form a binding contract with
-            Company, and only in compliance with this Agreement and all
-            applicable local, state, national, and international laws, rules and
-            regulations. Anyone under 13 is strictly prohibited from creating an
-            account for the Service. In addition, anyone under 13 may only
-            accept invitations from parents / legal guardians to join their
-            account. The Service is not available to any Users previously
-            removed from the Service by us.
-        </p>
+        <section>
+            <div class="en section_container active" section-language="en">
+                <div id="md_en" data-target="out_en" class="agreement_md">
+                    <h1>Terms and Conditions</h1>
+                    <p>Last updated: June 28, 2021</p>
+                    <p>
+                        Please read these terms and conditions carefully before
+                        using Our Service.
+                    </p>
+                    <h1>Interpretation and Definitions</h1>
+                    <h2>Interpretation</h2>
+                    <p>
+                        The words of which the initial letter is capitalized
+                        have meanings defined under the following conditions.
+                        The following definitions shall have the same meaning
+                        regardless of whether they appear in singular or in
+                        plural.
+                    </p>
+                    <h2>Definitions</h2>
+                    <p>For the purposes of these Terms and Conditions:</p>
+                    <ul>
+                        <li>
+                            <p>
+                                <strong>Application</strong> means the software
+                                program provided by the Company downloaded by
+                                You on any electronic device, named Flares
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Application Store</strong> means the
+                                digital distribution service operated and
+                                developed by Apple Inc. (Apple App Store) or
+                                Google Inc. (Google Play Store) in which the
+                                Application has been downloaded.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Affiliate</strong> means an entity that
+                                controls, is controlled by or is under common
+                                control with a party, where "control" means
+                                ownership of 50% or more of the shares, equity
+                                interest or other securities entitled to vote
+                                for election of directors or other managing
+                                authority.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Account</strong> means a unique account
+                                created for You to access our Service or parts
+                                of our Service.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Country</strong> refers to: Ontario,
+                                Canada
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Company</strong> (referred to as either
+                                "the Company", "We", "Us" or "Our" in this
+                                Agreement) refers to Flares Mobile Inc.,
+                                contact@flares.me.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Content</strong> refers to content such
+                                as text, images, or other information that can
+                                be posted, uploaded, linked to or otherwise made
+                                available by You, regardless of the form of that
+                                content.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Device</strong> means any device that
+                                can access the Service such as a computer, a
+                                cellphone or a digital tablet.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Feedback</strong> means feedback,
+                                innovations or suggestions sent by You regarding
+                                the attributes, performance or features of our
+                                Service.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Service</strong> refers to the
+                                Application or the Website or both.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Terms and Conditions</strong> (also
+                                referred as "Terms") mean these Terms and
+                                Conditions that form the entire agreement
+                                between You and the Company regarding the use of
+                                the Service.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong
+                                    >Third-party Social Media Service</strong
+                                >
+                                means any services or content (including data,
+                                information, products or services) provided by a
+                                third-party that may be displayed, included or
+                                made available by the Service.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>Website</strong> refers to Flares,
+                                accessible from
+                                <a
+                                    href="https://www.flares.me"
+                                    rel="external nofollow noopener"
+                                    target="_blank"
+                                    >https://www.flares.me</a
+                                >
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                <strong>You</strong> means the individual
+                                accessing or using the Service, or the company,
+                                or other legal entity on behalf of which such
+                                individual is accessing or using the Service, as
+                                applicable.
+                            </p>
+                        </li>
+                    </ul>
+                    <h1>Acknowledgment</h1>
+                    <p>
+                        These are the Terms and Conditions governing the use of
+                        this Service and the agreement that operates between You
+                        and the Company. These Terms and Conditions set out the
+                        rights and obligations of all users regarding the use of
+                        the Service.
+                    </p>
+                    <p>
+                        Your access to and use of the Service is conditioned on
+                        Your acceptance of and compliance with these Terms and
+                        Conditions. These Terms and Conditions apply to all
+                        visitors, users and others who access or use the
+                        Service.
+                    </p>
+                    <p>
+                        By accessing or using the Service You agree to be bound
+                        by these Terms and Conditions. If You disagree with any
+                        part of these Terms and Conditions then You may not
+                        access the Service.
+                    </p>
+                    <p>
+                        You represent that you are over the age of 18. The
+                        Company does not permit those under 18 to use the
+                        Service.
+                    </p>
+                    <p>
+                        Your access to and use of the Service is also
+                        conditioned on Your acceptance of and compliance with
+                        the Privacy Policy of the Company. Our Privacy Policy
+                        describes Our policies and procedures on the collection,
+                        use and disclosure of Your personal information when You
+                        use the Application or the Website and tells You about
+                        Your privacy rights and how the law protects You. Please
+                        read Our Privacy Policy carefully before using Our
+                        Service.
+                    </p>
+                    <h1>User Accounts</h1>
+                    <p>
+                        When You create an account with Us, You must provide Us
+                        information that is accurate, complete, and current at
+                        all times. Failure to do so constitutes a breach of the
+                        Terms, which may result in immediate termination of Your
+                        account on Our Service.
+                    </p>
+                    <p>
+                        You are responsible for safeguarding the password that
+                        You use to access the Service and for any activities or
+                        actions under Your password, whether Your password is
+                        with Our Service or a Third-Party Social Media Service.
+                    </p>
+                    <p>
+                        You agree not to disclose Your password to any third
+                        party. You must notify Us immediately upon becoming
+                        aware of any breach of security or unauthorized use of
+                        Your account.
+                    </p>
+                    <p>
+                        You may not use as a username the name of another person
+                        or entity or that is not lawfully available for use, a
+                        name or trademark that is subject to any rights of
+                        another person or entity other than You without
+                        appropriate authorization, or a name that is otherwise
+                        offensive, vulgar or obscene.
+                    </p>
+                    <h1>Content</h1>
+                    <h2>Your Right to Post Content</h2>
+                    <p>
+                        Our Service allows You to post Content. You are
+                        responsible for the Content that You post to the
+                        Service, including its legality, reliability, and
+                        appropriateness.
+                    </p>
+                    <p>
+                        By posting Content to the Service, You grant Us the
+                        right and license to use, modify, publicly perform,
+                        publicly display, reproduce, and distribute such Content
+                        on and through the Service. You retain any and all of
+                        Your rights to any Content You submit, post or display
+                        on or through the Service and You are responsible for
+                        protecting those rights. You agree that this license
+                        includes the right for Us to make Your Content available
+                        to other users of the Service, who may also use Your
+                        Content subject to these Terms.
+                    </p>
+                    <p>
+                        You represent and warrant that: (i) the Content is Yours
+                        (You own it) or You have the right to use it and grant
+                        Us the rights and license as provided in these Terms,
+                        and (ii) the posting of Your Content on or through the
+                        Service does not violate the privacy rights, publicity
+                        rights, copyrights, contract rights or any other rights
+                        of any person.
+                    </p>
+                    <h2>Content Restrictions</h2>
+                    <p>
+                        The Company is not responsible for the content of the
+                        Service's users. You expressly understand and agree that
+                        You are solely responsible for the Content and for all
+                        activity that occurs under your account, whether done so
+                        by You or any third person using Your account.
+                    </p>
+                    <p>
+                        You may not transmit any Content that is unlawful,
+                        offensive, upsetting, intended to disgust, threatening,
+                        libelous, defamatory, obscene or otherwise
+                        objectionable. Examples of such objectionable Content
+                        include, but are not limited to, the following:
+                    </p>
+                    <ul>
+                        <li>Unlawful or promoting unlawful activity.</li>
+                        <li>
+                            Defamatory, discriminatory, or mean-spirited
+                            content, including references or commentary about
+                            religion, race, sexual orientation, gender,
+                            national/ethnic origin, or other targeted groups.
+                        </li>
+                        <li>
+                            Spam, machine – or randomly – generated,
+                            constituting unauthorized or unsolicited
+                            advertising, chain letters, any other form of
+                            unauthorized solicitation, or any form of lottery or
+                            gambling.
+                        </li>
+                        <li>
+                            Containing or installing any viruses, worms,
+                            malware, trojan horses, or other content that is
+                            designed or intended to disrupt, damage, or limit
+                            the functioning of any software, hardware or
+                            telecommunications equipment or to damage or obtain
+                            unauthorized access to any data or other information
+                            of a third person.
+                        </li>
+                        <li>
+                            Infringing on any proprietary rights of any party,
+                            including patent, trademark, trade secret,
+                            copyright, right of publicity or other rights.
+                        </li>
+                        <li>
+                            Impersonating any person or entity including the
+                            Company and its employees or representatives.
+                        </li>
+                        <li>Violating the privacy of any third person.</li>
+                        <li>False information and features.</li>
+                    </ul>
+                    <p>
+                        The Company reserves the right, but not the obligation,
+                        to, in its sole discretion, determine whether or not any
+                        Content is appropriate and complies with this Terms,
+                        refuse or remove this Content. The Company further
+                        reserves the right to make formatting and edits and
+                        change the manner any Content. The Company can also
+                        limit or revoke the use of the Service if You post such
+                        objectionable Content. As the Company cannot control all
+                        content posted by users and/or third parties on the
+                        Service, you agree to use the Service at your own risk.
+                        You understand that by using the Service You may be
+                        exposed to content that You may find offensive,
+                        indecent, incorrect or objectionable, and You agree that
+                        under no circumstances will the Company be liable in any
+                        way for any content, including any errors or omissions
+                        in any content, or any loss or damage of any kind
+                        incurred as a result of your use of any content.
+                    </p>
+                    <h2>Content Backups</h2>
+                    <p>
+                        Although regular backups of Content are performed, the
+                        Company do not guarantee there will be no loss or
+                        corruption of data.
+                    </p>
+                    <p>
+                        Corrupt or invalid backup points may be caused by,
+                        without limitation, Content that is corrupted prior to
+                        being backed up or that changes during the time a backup
+                        is performed.
+                    </p>
+                    <p>
+                        The Company will provide support and attempt to
+                        troubleshoot any known or discovered issues that may
+                        affect the backups of Content. But You acknowledge that
+                        the Company has no liability related to the integrity of
+                        Content or the failure to successfully restore Content
+                        to a usable state.
+                    </p>
+                    <p>
+                        You agree to maintain a complete and accurate copy of
+                        any Content in a location independent of the Service.
+                    </p>
+                    <h1>Copyright Policy</h1>
+                    <h2>Intellectual Property Infringement</h2>
+                    <p>
+                        We respect the intellectual property rights of others.
+                        It is Our policy to respond to any claim that Content
+                        posted on the Service infringes a copyright or other
+                        intellectual property infringement of any person.
+                    </p>
+                    <p>
+                        If You are a copyright owner, or authorized on behalf of
+                        one, and You believe that the copyrighted work has been
+                        copied in a way that constitutes copyright infringement
+                        that is taking place through the Service, You must
+                        submit Your notice in writing to the attention of our
+                        copyright agent via email at contact@flares.me and
+                        include in Your notice a detailed description of the
+                        alleged infringement.
+                    </p>
+                    <p>
+                        You may be held accountable for damages (including costs
+                        and attorneys' fees) for misrepresenting that any
+                        Content is infringing Your copyright.
+                    </p>
+                    <h2>
+                        DMCA Notice and DMCA Procedure for Copyright
+                        Infringement Claims
+                    </h2>
+                    <p>
+                        You may submit a notification pursuant to the Digital
+                        Millennium Copyright Act (DMCA) by providing our
+                        Copyright Agent with the following information in
+                        writing (see 17 U.S.C 512(c)(3) for further detail):
+                    </p>
+                    <ul>
+                        <li>
+                            An electronic or physical signature of the person
+                            authorized to act on behalf of the owner of the
+                            copyright's interest.
+                        </li>
+                        <li>
+                            A description of the copyrighted work that You claim
+                            has been infringed, including the URL (i.e., web
+                            page address) of the location where the copyrighted
+                            work exists or a copy of the copyrighted work.
+                        </li>
+                        <li>
+                            Identification of the URL or other specific location
+                            on the Service where the material that You claim is
+                            infringing is located.
+                        </li>
+                        <li>
+                            Your address, telephone number, and email address.
+                        </li>
+                        <li>
+                            A statement by You that You have a good faith belief
+                            that the disputed use is not authorized by the
+                            copyright owner, its agent, or the law.
+                        </li>
+                        <li>
+                            A statement by You, made under penalty of perjury,
+                            that the above information in Your notice is
+                            accurate and that You are the copyright owner or
+                            authorized to act on the copyright owner's behalf.
+                        </li>
+                    </ul>
+                    <p>
+                        You can contact our copyright agent via email at
+                        contact@flares.me. Upon receipt of a notification, the
+                        Company will take whatever action, in its sole
+                        discretion, it deems appropriate, including removal of
+                        the challenged content from the Service.
+                    </p>
+                    <h1>Intellectual Property</h1>
+                    <p>
+                        The Service and its original content (excluding Content
+                        provided by You or other users), features and
+                        functionality are and will remain the exclusive property
+                        of the Company and its licensors.
+                    </p>
+                    <p>
+                        The Service is protected by copyright, trademark, and
+                        other laws of both the Country and foreign countries.
+                    </p>
+                    <p>
+                        Our trademarks and trade dress may not be used in
+                        connection with any product or service without the prior
+                        written consent of the Company.
+                    </p>
+                    <h1>Your Feedback to Us</h1>
+                    <p>
+                        You assign all rights, title and interest in any
+                        Feedback You provide the Company. If for any reason such
+                        assignment is ineffective, You agree to grant the
+                        Company a non-exclusive, perpetual, irrevocable, royalty
+                        free, worldwide right and license to use, reproduce,
+                        disclose, sub-license, distribute, modify and exploit
+                        such Feedback without restriction.
+                    </p>
+                    <h1>Links to Other Websites</h1>
+                    <p>
+                        Our Service may contain links to third-party web sites
+                        or services that are not owned or controlled by the
+                        Company.
+                    </p>
+                    <p>
+                        The Company has no control over, and assumes no
+                        responsibility for, the content, privacy policies, or
+                        practices of any third party web sites or services. You
+                        further acknowledge and agree that the Company shall not
+                        be responsible or liable, directly or indirectly, for
+                        any damage or loss caused or alleged to be caused by or
+                        in connection with the use of or reliance on any such
+                        content, goods or services available on or through any
+                        such web sites or services.
+                    </p>
+                    <p>
+                        We strongly advise You to read the terms and conditions
+                        and privacy policies of any third-party web sites or
+                        services that You visit.
+                    </p>
+                    <h1>Termination</h1>
+                    <p>
+                        We may terminate or suspend Your Account immediately,
+                        without prior notice or liability, for any reason
+                        whatsoever, including without limitation if You breach
+                        these Terms and Conditions.
+                    </p>
+                    <p>
+                        Upon termination, Your right to use the Service will
+                        cease immediately. If You wish to terminate Your
+                        Account, You may simply discontinue using the Service.
+                    </p>
+                    <h1>Limitation of Liability</h1>
+                    <p>
+                        Notwithstanding any damages that You might incur, the
+                        entire liability of the Company and any of its suppliers
+                        under any provision of this Terms and Your exclusive
+                        remedy for all of the foregoing shall be limited to the
+                        amount actually paid by You through the Service or 100
+                        USD if You haven't purchased anything through the
+                        Service.
+                    </p>
+                    <p>
+                        To the maximum extent permitted by applicable law, in no
+                        event shall the Company or its suppliers be liable for
+                        any special, incidental, indirect, or consequential
+                        damages whatsoever (including, but not limited to,
+                        damages for loss of profits, loss of data or other
+                        information, for business interruption, for personal
+                        injury, loss of privacy arising out of or in any way
+                        related to the use of or inability to use the Service,
+                        third-party software and/or third-party hardware used
+                        with the Service, or otherwise in connection with any
+                        provision of this Terms), even if the Company or any
+                        supplier has been advised of the possibility of such
+                        damages and even if the remedy fails of its essential
+                        purpose.
+                    </p>
+                    <p>
+                        Some states do not allow the exclusion of implied
+                        warranties or limitation of liability for incidental or
+                        consequential damages, which means that some of the
+                        above limitations may not apply. In these states, each
+                        party's liability will be limited to the greatest extent
+                        permitted by law.
+                    </p>
+                    <h1>"AS IS" and "AS AVAILABLE" Disclaimer</h1>
+                    <p>
+                        The Service is provided to You "AS IS" and "AS
+                        AVAILABLE" and with all faults and defects without
+                        warranty of any kind. To the maximum extent permitted
+                        under applicable law, the Company, on its own behalf and
+                        on behalf of its Affiliates and its and their respective
+                        licensors and service providers, expressly disclaims all
+                        warranties, whether express, implied, statutory or
+                        otherwise, with respect to the Service, including all
+                        implied warranties of merchantability, fitness for a
+                        particular purpose, title and non-infringement, and
+                        warranties that may arise out of course of dealing,
+                        course of performance, usage or trade practice. Without
+                        limitation to the foregoing, the Company provides no
+                        warranty or undertaking, and makes no representation of
+                        any kind that the Service will meet Your requirements,
+                        achieve any intended results, be compatible or work with
+                        any other software, applications, systems or services,
+                        operate without interruption, meet any performance or
+                        reliability standards or be error free or that any
+                        errors or defects can or will be corrected.
+                    </p>
+                    <p>
+                        Without limiting the foregoing, neither the Company nor
+                        any of the company's provider makes any representation
+                        or warranty of any kind, express or implied: (i) as to
+                        the operation or availability of the Service, or the
+                        information, content, and materials or products included
+                        thereon; (ii) that the Service will be uninterrupted or
+                        error-free; (iii) as to the accuracy, reliability, or
+                        currency of any information or content provided through
+                        the Service; or (iv) that the Service, its servers, the
+                        content, or e-mails sent from or on behalf of the
+                        Company are free of viruses, scripts, trojan horses,
+                        worms, malware, timebombs or other harmful components.
+                    </p>
+                    <p>
+                        Some jurisdictions do not allow the exclusion of certain
+                        types of warranties or limitations on applicable
+                        statutory rights of a consumer, so some or all of the
+                        above exclusions and limitations may not apply to You.
+                        But in such a case the exclusions and limitations set
+                        forth in this section shall be applied to the greatest
+                        extent enforceable under applicable law.
+                    </p>
+                    <h1>Governing Law</h1>
+                    <p>
+                        The laws of the Country, excluding its conflicts of law
+                        rules, shall govern this Terms and Your use of the
+                        Service. Your use of the Application may also be subject
+                        to other local, state, national, or international laws.
+                    </p>
+                    <h1>Disputes Resolution</h1>
+                    <p>
+                        If You have any concern or dispute about the Service,
+                        You agree to first try to resolve the dispute informally
+                        by contacting the Company.
+                    </p>
+                    <h1>For European Union (EU) Users</h1>
+                    <p>
+                        If You are a European Union consumer, you will benefit
+                        from any mandatory provisions of the law of the country
+                        in which you are resident in.
+                    </p>
+                    <h1>United States Legal Compliance</h1>
+                    <p>
+                        You represent and warrant that (i) You are not located
+                        in a country that is subject to the United States
+                        government embargo, or that has been designated by the
+                        United States government as a "terrorist supporting"
+                        country, and (ii) You are not listed on any United
+                        States government list of prohibited or restricted
+                        parties.
+                    </p>
+                    <h1>Severability and Waiver</h1>
+                    <h2>Severability</h2>
+                    <p>
+                        If any provision of these Terms is held to be
+                        unenforceable or invalid, such provision will be changed
+                        and interpreted to accomplish the objectives of such
+                        provision to the greatest extent possible under
+                        applicable law and the remaining provisions will
+                        continue in full force and effect.
+                    </p>
+                    <h2>Waiver</h2>
+                    <p>
+                        Except as provided herein, the failure to exercise a
+                        right or to require performance of an obligation under
+                        this Terms shall not effect a party's ability to
+                        exercise such right or require such performance at any
+                        time thereafter nor shall be the waiver of a breach
+                        constitute a waiver of any subsequent breach.
+                    </p>
+                    <h1>Translation Interpretation</h1>
+                    <p>
+                        These Terms and Conditions may have been translated if
+                        We have made them available to You on our Service. You
+                        agree that the original English text shall prevail in
+                        the case of a dispute.
+                    </p>
+                    <h1>Changes to These Terms and Conditions</h1>
+                    <p>
+                        We reserve the right, at Our sole discretion, to modify
+                        or replace these Terms at any time. If a revision is
+                        material We will make reasonable efforts to provide at
+                        least 30 days' notice prior to any new terms taking
+                        effect. What constitutes a material change will be
+                        determined at Our sole discretion.
+                    </p>
+                    <p>
+                        By continuing to access or use Our Service after those
+                        revisions become effective, You agree to be bound by the
+                        revised terms. If You do not agree to the new terms, in
+                        whole or in part, please stop using the website and the
+                        Service.
+                    </p>
+                    <h1>Contact Us</h1>
+                    <p>
+                        If you have any questions about these Terms and
+                        Conditions, You can contact us:
+                    </p>
+                    <ul>
+                        <li>By email: contact@flares.me</li>
+                    </ul>
+                </div>
+                <div id="out_en" class="agreement_output"></div>
+            </div>
+        </section>
 
-        <h3>B. Service Rules</h3>
-        <p>
-            You agree not to engage in any of the following prohibited
-            activities: (i) copying, distributing, or disclosing any part of the
-            Service in any medium, including without limitation by any automated
-            or non-automated “scraping”; (ii) using any automated system,
-            including without limitation “robots,” “spiders,” “offline readers,”
-            etc., to access the Service in a manner that sends more request
-            messages to the Company servers than a human can reasonably produce
-            in the same period of time by using a conventional on-line web
-            browser; (iii) transmitting spam, chain letters, or other
-            unsolicited email; (iv) attempting to interfere with, compromise the
-            system integrity or security or decipher any transmissions to or
-            from the servers running the Service; (v) taking any action that
-            imposes, or may impose at our sole discretion an unreasonable or
-            disproportionately large load on our infrastructure; (vi) uploading
-            invalid data, viruses, worms, or other software agents through the
-            Service; (vii) collecting or harvesting any personally identifiable
-            information, including account names, from the Service; (viii) using
-            the Service for any commercial solicitation purposes; (ix)
-            impersonating another person or otherwise misrepresenting your
-            affiliation with a person or entity, conducting fraud, hiding or
-            attempting to hide your identity; (x) interfering with the proper
-            working of the Service; (xi) accessing any content on the Service
-            through any technology or means other than those provided or
-            authorized by the Service; or (xii) bypassing the measures we may
-            use to prevent or restrict access to the Service, including without
-            limitation features that prevent or restrict use or copying of any
-            content or enforce limitations on use of the Service or the content
-            therein.
-        </p>
-
-        <h3>C. License to Use the Service</h3>
-        <p>
-            Subject to the terms and conditions of this Agreement, you are
-            hereby granted a non-exclusive, limited, non-transferable, freely
-            revocable license to use the Service for your personal,
-            noncommercial use only and as permitted by the features of the
-            Service. Company reserves all rights not expressly granted herein in
-            the Service and the Company Content (as defined below). Company may
-            terminate this license at any time for any reason or no reason.
-        </p>
-
-        <h3>D. Accounts</h3>
-        <p>
-            Accounts that you are able to establish with the Service give you
-            access to the services and functionality that we may establish and
-            maintain from time to time and in our sole discretion. <br /><br />
-            You may never use another User’s account without permission. When
-            creating your account, you must provide accurate and complete
-            information. You are solely responsible for the activity that occurs
-            on your account, and you must keep your account password secure. We
-            encourage you to use “strong” passwords (passwords that use a
-            combination of upper and lower case letters, numbers and symbols)
-            with your account. You must notify us immediately of any breach of
-            security or unauthorized use of your account. Company will not be
-            liable for any losses caused by any unauthorized use of your
-            account.
-            <br /><br />
-            You may control your User profile and how you interact with the
-            Service by changing settings that are made available to you.
-        </p>
-
-        <h2>2. Service Availability and Our Right to Terminate</h2>
-        <p>
-            We may, without prior notice, change the Service; stop providing the
-            Service or features of the Service, to you or to Users generally; or
-            create usage limits for the Service. We may permanently or
-            temporarily terminate or suspend your access to the Service without
-            notice and liability for any reason, including if in our sole
-            determination you violate any provision of this Agreement, or for no
-            reason. Upon termination for any reason or no reason, you continue
-            to be bound by this Agreement. You are responsible for all the
-            mobile data usage resulting from the use of Service. Consult your
-            mobile operator concerning your plan, data rate charges and limits.
-            You are solely responsible for your interactions with other Users.
-            We reserve the right, but have no obligation, to monitor disputes
-            between you and other Users. Company shall have no liability for
-            your interactions with other Users, or for any User’s action or
-            inaction.
-        </p>
-
-        <h2>3. User Content</h2>
-        <p>
-            Some areas of the Service allow Users to post content such as
-            profile information, comments, questions, and other content or
-            information (any such content a User submits, posts, displays,
-            creates, or affirmatively chooses to make available on the Service
-            is “User Content”). User Content does not include information about
-            your phone or device. We claim no ownership rights over User Content
-            created by you. The User Content you create remains yours; however,
-            by sharing User Content through the Service, you agree to the User
-            Content License Grant below, and to allow others to view, edit,
-            and/or share your User Content in accordance with your settings and
-            this Agreement. Company has the right (but not the obligation) in
-            its sole discretion to remove any User Content that is shared via
-            the Service. <br /><br />
-            You agree not to post or transmit User Content that: (i) may create
-            a risk of harm, loss, physical or mental injury, emotional distress,
-            death, disability, disfigurement, or physical or mental illness to
-            you, to any other person, or to any animal; (ii) may create a risk
-            of any other loss or damage to any person or property; (iii) seeks
-            to harm or exploit children by exposing them to inappropriate
-            content, asking for personally identifiable details or otherwise;
-            (iv) may constitute or contribute to a crime or tort; (v) contains
-            any information or content that we deem to be unlawful, harmful,
-            abusive, racially or ethnically offensive, defamatory, infringing,
-            invasive of personal privacy or publicity rights, harassing,
-            humiliating to other people (publicly or otherwise), libelous,
-            threatening, profane, or otherwise objectionable; (vi) contains any
-            information or content that is illegal (including, without
-            limitation, the disclosure of insider information under securities
-            law or of another party’s trade secrets); (vii) contains any
-            information or content that you do not have a right to make
-            available under any law or under contractual or fiduciary
-            relationships; (viii) contains any information or content that you
-            know is not correct and current; (ix) violates any school or other
-            applicable policy, including those related to cheating or ethics;
-            (x) interferes with other Users of the Service including, without
-            limitation, disrupting the normal flow of dialogue in an interactive
-            area of the Service and deleting or revising any content posted by
-            another person or entity; (xi) except where expressly permitted,
-            post or transmit charity requests, petitions for signatures,
-            franchise arrangements, distributorship arrangements, sales
-            representative agency arrangements or other business opportunities
-            (including offers of employment or contracting arrangements), club
-            memberships, chain letters or letters relating to pyramid schemes,
-            any advertising or promotional materials or any other solicitation
-            of other users to use goods or services except in those areas (e.g.,
-            a classified bulletin board) that are designated for such purpose.
-            You agree that any employment or other relationship you form or
-            attempt to form with an employer, employee, or contractor whom you
-            contact through areas of the Service that may be designated for that
-            purpose is between you and that employer, employee, or contractor
-            alone, and not with us. You may not copy or use personal identifying
-            or business contact information about other Users without their
-            permission. You agree that any User Content that you post does not
-            and will not violate third-party rights of any kind, including
-            without limitation any Intellectual Property Rights (as defined
-            below) or rights of privacy. Company reserves the right, but is not
-            obligated, to reject and/or remove any User Content that Company
-            believes, in its sole discretion, violates these provisions.
-            <br /><br />
-            For the purposes of this Agreement, “Intellectual Property Rights”
-            means all patent rights, copyright rights, mask work rights, moral
-            rights, rights of publicity, trademark, trade dress and service mark
-            rights, goodwill, trade secret rights and other intellectual
-            property rights as may now exist or hereafter come into existence,
-            and all applications therefore and registrations, renewals and
-            extensions thereof, under the laws of any state, country, territory
-            or other jurisdiction.
-            <br /><br />
-            In connection with your User Content, you affirm, represent and
-            warrant the following:
-            <br /><br />
-            A. You have the consent of each and every identifiable natural
-            person in the User Content to use such person’s name or likeness in
-            the manner contemplated by the Service and this Agreement, and each
-            such person has released you from any liability that may arise in
-            relation to such use.
-            <br /><br />
-            B. Your User Content and Company’s use thereof as contemplated by
-            this Agreement and the Service will not violate any law or infringe
-            any rights of any third party, including but not limited to any
-            Intellectual Property Rights and privacy rights. Company takes no
-            responsibility and assumes no liability for any User Content that
-            you or any other User or third party posts or sends over the
-            Service. You shall be solely responsible for your User Content and
-            the consequences of posting or publishing it, and you agree that we
-            are only acting as a passive conduit for your online distribution
-            and publication of your User Content. You understand and agree that
-            you may be exposed to User Content that is inaccurate,
-            objectionable, inappropriate for children, or otherwise unsuited to
-            your purpose, and you agree that Company shall not be liable for any
-            damages you allege to incur as a result of User Content.
-        </p>
-
-        <h2>4. User Content License Grant</h2>
-        <p>
-            By posting any User Content on the Service, you expressly grant, and
-            you represent and warrant that you have all rights necessary to
-            grant, to Company a royalty-free, sublicensable, transferable,
-            perpetual, irrevocable, non-exclusive, worldwide license to use,
-            reproduce, modify, publish, list information regarding, edit,
-            translate, distribute, syndicate, publicly perform, publicly
-            display, and make derivative works of all such User Content and your
-            name, voice, and/or likeness as contained in your User Content, in
-            whole or in part, and in any form, media or technology, whether now
-            known or hereafter developed, for use in connection with the Service
-            and for our commercial, marketing, advertising, and other purposes.
-        </p>
-
-        <h2>5. Mobile Software</h2>
-        <h3>A. Mobile Software.</h3>
-        <p>
-            As part of the Service, we make available software and/or
-            applications designed for mobile devices (“Mobile Software”). To use
-            the Mobile Software you must have a mobile device that is compatible
-            with the Mobile Software. Company does not warrant that the Mobile
-            Software will be compatible with your mobile device. Company hereby
-            grants you a non-exclusive, non-transferable, revocable license to
-            use a compiled code copy of the Mobile Software for one Company
-            account owned or leased solely by you, for your personal use. You
-            may not: (i) modify, disassemble, decompile or reverse engineer the
-            Mobile Software, except to the extent that such restriction is
-            expressly prohibited by law; (ii) rent, lease, loan, resell,
-            sublicense, distribute or otherwise transfer the Mobile Software to
-            any third party or use the Mobile Software to provide time sharing
-            or similar services for any third party; (iii) make any copies of
-            the Mobile Software; (iv) remove, circumvent, disable, damage or
-            otherwise interfere with security-related features of the Mobile
-            Software, features that prevent or restrict use or copying of any
-            content accessible through the Mobile Software, or features that
-            enforce limitations on use of the Mobile Software; or (v) delete the
-            copyright and other proprietary rights notices on the Mobile
-            Software. You acknowledge that Company may from time to time issue
-            upgraded versions of the Mobile Software, and may automatically
-            electronically upgrade the version of the Mobile Software that you
-            are using on your mobile device. You consent to such automatic
-            upgrading on your mobile device, and agree that the terms and
-            conditions of this Agreement will apply to all such upgrades. Any
-            third-party code that may be incorporated in the Mobile Software is
-            covered by the applicable open source or third-party license EULA,
-            if any, authorizing use of such code. The foregoing license grant is
-            not a sale of the Mobile Software or any copy thereof, and Company
-            or its third party partners or suppliers retain all right, title,
-            and interest in the Mobile Software (and any copy thereof). Any
-            attempt by you to transfer any of the rights, duties or obligations
-            hereunder, except as expressly provided for in this Agreement, is
-            void. Company reserves all rights not expressly granted under this
-            Agreement. If the Mobile Software is being acquired on behalf of the
-            United States Government, then the following provision applies. Use,
-            duplication, or disclosure of the Mobile Software by the U.S.
-            Government is subject to restrictions set forth in this Agreement
-            and as provided in DFARS 227.7202-1(a) and 227.7202-3(a) (1995),
-            DFARS 252.227-7013(c)(1)(ii) (OCT 1988), FAR 12.212(a) (1995), FAR
-            52.227-19, or FAR 52.227-14 (ALT III), as applicable. The Mobile
-            Software originates in the United States, and is subject to United
-            States export laws and regulations. The Mobile Software may not be
-            exported or re-exported to certain countries or those persons or
-            entities prohibited from receiving exports from the United States.
-            In addition, the Mobile Software may be subject to the import and
-            export laws of other countries. You agree to comply with all United
-            States and foreign laws related to use of the Mobile Software and
-            the Company Service.
-        </p>
-
-        <h3>B. Mobile Software from iTunes.</h3>
-        <p>
-            The following applies to any Mobile Software you acquire from the
-            iTunes Store (“iTunes-Sourced Software”): You acknowledge and agree
-            that this Agreement is solely between you and Company, not Apple,
-            and that Apple has no responsibility for the iTunes-Sourced Software
-            or content thereof. Your use of the iTunes-Sourced Software must
-            comply with the App Store Terms of Service. You acknowledge that
-            Apple has no obligation whatsoever to furnish any maintenance and
-            support services with respect to the iTunes-Sourced Software. In the
-            event of any failure of the iTunes-Sourced Software to conform to
-            any applicable warranty, you may notify Apple, and Apple will refund
-            the purchase price for the iTunes-Sourced Software to you; to the
-            maximum extent permitted by applicable law, Apple will have no other
-            warranty obligation whatsoever with respect to the iTunes-Sourced
-            Software, and any other claims, losses, liabilities, damages, costs
-            or expenses attributable to any failure to conform to any warranty
-            will be solely governed by this Agreement and any law applicable to
-            Company as provider of the software. You acknowledge that Apple is
-            not responsible for addressing any claims of you or any third party
-            relating to the iTunes-Sourced Software or your possession and/or
-            use of the iTunes-Sourced Software, including, but not limited to:
-            (i) product liability claims; (ii) any claim that the iTunes-Sourced
-            Software fails to conform to any applicable legal or regulatory
-            requirement; and (iii) claims arising under consumer protection or
-            similar legislation; and all such claims are governed solely by this
-            Agreement and any law applicable to Company as provider of the
-            software. You acknowledge that, in the event of any third party
-            claim that the iTunes-Sourced Software or your possession and use of
-            that iTunes-Sourced Software infringes that third party’s
-            intellectual property rights, Company, not Apple, will be solely
-            responsible for the investigation, defense, settlement and discharge
-            of any such intellectual property infringement claim to the extent
-            required by this Agreement. You and Company acknowledge and agree
-            that Apple, and Apple’s subsidiaries, are third party beneficiaries
-            of this Agreement as relates to your license of the iTunes-Sourced
-            Software, and that, upon your acceptance of the terms and conditions
-            of this Agreement, Apple will have the right (and will be deemed to
-            have accepted the right) to enforce this Agreement as relates to
-            your license of the iTunes-Sourced Software against you as a third
-            party beneficiary thereof.
-        </p>
-
-        <h2>6. Our Communications With You</h2>
-        <p>
-            By providing Company your email address you consent to our using the
-            email address to send you Service-related notices, including any
-            notices required by law, in lieu of communication by postal mail. We
-            may also use your email address to send you other messages, such as
-            changes to features of the Service and special offers. If you do not
-            want to receive promotional email messages, you may opt out by
-            unsubscribing from such email communications from Company. Opting
-            out may prevent you from receiving email messages regarding updates,
-            improvements, or offers.
-        </p>
-
-        <h2>7. Our Proprietary Rights</h2>
-        <p>
-            Except for your User Content, the Service and all materials and
-            information therein or transferred thereby, including, without
-            limitation, information about your phone or device, or data that is
-            otherwise generated, collected or transmitted through use of the
-            Service or Mobile Software, software, images, text, graphics,
-            illustrations, logos, patents, trademarks, service marks,
-            copyrights, photographs, audio, videos, music, and User Content
-            belonging to other Users (the “Company Content”), and all
-            Intellectual Property Rights related thereto, are the exclusive
-            property of Company and its licensors (including other Users who
-            post User Content to the Service). Except as explicitly provided
-            herein, nothing in this Agreement shall be deemed to create a
-            license in or under any such Intellectual Property Rights, and you
-            agree not to sell, license, rent, modify, distribute, copy,
-            reproduce, transmit, publicly display, publicly perform, publish,
-            adapt, edit or create derivative works from any Company Content. Use
-            of the Company Content for any purpose not expressly permitted by
-            this Agreement is strictly prohibited.
-            <br /><br />
-            You may choose to or we may invite you to submit comments or ideas
-            about the Service, including without limitation about how to improve
-            the Service or our products (“Ideas”). By submitting any Idea, you
-            agree that your disclosure is gratuitous, unsolicited and without
-            restriction and will not place Company under any fiduciary or other
-            obligation, and that we are free to use the Idea without any
-            additional compensation to you, and/or to disclose the Idea on a
-            non-confidential basis or otherwise to anyone. You further
-            acknowledge that, by acceptance of your submission, Company does not
-            waive any rights to use similar or related ideas previously known to
-            Company, or developed by its employees, or obtained from sources
-            other than you.
-        </p>
-
-        <h2>8. Features of the Service</h2>
-        <p>
-            The Service includes a number of features which may or may not be
-            available to you depending on which features you elect and, where
-            required, pay or subscribe to use. Some of the Service features
-            require Mobile Software to be installed on the devices that the
-            features apply to. This section identifies some of the types of
-            features that are part of the Service, and that may be available for
-            you to use or pay or subscribe to use, along with important
-            information about those features.
-        </p>
-        <h3>A. Location Information Features.</h3>
-        <p>
-            There are features that are designed to collect and share location
-            information, about you and other individuals who use the Service.
-            These features require the corresponding Mobile Software to be
-            installed on the device for which location data will be provided,
-            and the features may not work if the corresponding settings to allow
-            the collection and sharing of information and location information
-            are not enabled. In addition, the features may not work for a
-            variety of reasons, such as if the device that the Mobile Software
-            is installed on is not powered on and connected to the wireless
-            service provider’s network (e.g., it will not work if the phone is
-            connected to a wi-fi network), if location services are turned off,
-            if the Service is not being used or is blocked on the device, etc.
-            <br /><br />
-            If you use features designed to collect and share location
-            information, the Service will periodically access and collect
-            information about your device and location (such information will be
-            Company Content under this Agreement). By using the features
-            designed to collect and share information, you represent and warrant
-            that you have consented, to use the service and to allow it to
-            access and collect such information.
-        </p>
-
-        <h2>
-            9. Additional Policies and Information About the Service and Service
-            Features
-        </h2>
-        <p>
-            This section contains additional policies and information about the
-            Service and Service features including geographic coverage
-            information, billing policies, and pricing and payment terms.
-        </p>
-        <h3>A. Billing Policies.</h3>
-        <p>
-            If you elect to use features of the Service that have charges or
-            subscriptions (“Subscription Features”) you agree to the pricing and
-            payment terms and that we may update them from time to time. Company
-            may add new features for additional fees and charges, or amend fees
-            and charges for existing services, at any time in its sole
-            discretion. Any change to our pricing or payment terms shall become
-            effective in the billing cycle following notice of such change to
-            you as provided in this Agreement.
-        </p>
-
-        <h3>B. Pricing and Payment Terms</h3>
-        <h4>i. Subscription/access fees are payable in advance.</h4>
-        <p>
-            All subscription and access charges for the Subscription Features
-            are payable in advance. Company is not responsible for any charges
-            or expenses you incur resulting from charges billed by Company in
-            accordance with this Agreement (e.g. overdrawn accounts, exceeding
-            credit card limit, etc.). By providing a credit card number or other
-            payment method with advance authorization features (e.g. some PayPal
-            accounts, or in-app payments such as from third parties like Apple
-            or Google), you authorize Company to continue charging the payment
-            method for all charges due Company until your account is settled and
-            your subscription is terminated by either you or Company. Company
-            reserves the right to limit the number of accounts that may be
-            charged to a credit card or other payment or identification method
-            per unique user.
-        </p>
-        <h4>ii. Pricing Changes</h4>
-        <p>
-            Prices for Subscription Features may change from time to time, in
-            Company’s sole discretion. If they do, and you currently have
-            Subscription Features, Company will provide you with notice of the
-            change through the Service or in email to you, at Company’s option,
-            at least 30 days before the change is to take effect. Your continued
-            use of the Subscription Features after price changes become
-            effective constitutes your agreement to pay the changed amount. If
-            you do not agree to the new prices, please follow the instructions
-            in the “Cancel Subscription” section below. You (and not Company)
-            are responsible for any charges or fees payable to third parties in
-            connection with the Service, such as ambulances and other emergency
-            responders.
-        </p>
-
-        <h3>C. No Refunds.</h3>
-        <p>
-            You may cancel your account at any time; however, there are no
-            refunds for any unused time on a subscription, any license or
-            subscription fees for any portion of the Service, any content or
-            data associated with your account, or for anything else. Upon
-            cancelling any Subscription Features, your subscription will be
-            valid until your paid period is completed.
-        </p>
-
-        <h3>D. Payment Information; Taxes.</h3>
-        <p>
-            All information that you provide in connection with a purchase or
-            transaction or other monetary transaction interaction with the
-            Service must be accurate, complete, and current. You agree to pay
-            all charges incurred by users of your credit card, debit card, or
-            other payment method used in connection with a purchase or
-            transaction or other monetary transaction interaction with the
-            Service at the prices in effect when such charges are incurred. You
-            will pay any applicable taxes, if any, relating to any such
-            purchases, transactions or other monetary transaction interactions.
-        </p>
-
-        <h3>E. Battery Usage</h3>
-        <p>
-            Use of the Service or Service features that require the use of
-            Mobile Software may use a significant amount of power from the
-            battery of any device that the Mobile Software is installed on. You
-            may wish to limit your use of these or other services on your device
-            to the times when they are necessary (e.g., you may want to turn off
-            certain Service features when you are not driving, or you may want
-            to turn off other applications and services when you are driving),
-            or where possible, you might wish to keep your phone plugged into a
-            power source.
-        </p>
-
-        <h2>10. No Professional Advice</h2>
-        <p>
-            If the Service provides professional information (e.g. medical or
-            legal), such information is for informational purposes only and
-            should not be construed as professional advice. No action should be
-            taken based upon any information contained in the Service. You
-            should seek independent professional advice from a person who is
-            licensed and/or qualified in the applicable area.
-        </p>
-
-        <h2>11. Privacy</h2>
-        <p>
-            We care about the privacy of our Users. You understand that by using
-            the Service you consent to the collection, use and disclosure of
-            your personally identifiable information and aggregate data as set
-            forth in our Privacy Policy, and to have your personally
-            identifiable information collected, used, transferred to and
-            processed in the United States.
-        </p>
-
-        <h2>12. Security</h2>
-        <p>
-            Company cares about the integrity and security of your personal
-            information. However, we cannot guarantee that unauthorized third
-            parties will never be able to defeat our security measures or use
-            your personal information for improper purposes. You acknowledge
-            that you provide your personal information at your own risk.
-        </p>
-
-        <h2>13. Third-Party Links</h2>
-        <p>
-            The Service may contain links to third-party websites, advertisers,
-            services, special offers, or other events or activities that are not
-            owned or controlled by Company. Company does not endorse or assume
-            any responsibility for any such third-party sites, information,
-            materials, products, or services. If you access a third party
-            website from the Service, you do so at your own risk, and you
-            understand that this Agreement and Company’s Privacy Policy do not
-            apply to your use of such sites. You expressly relieve Company from
-            any and all liability arising from your use of any third-party
-            website, service, or content. Additionally, your dealings with or
-            participation in promotions of advertisers found on the Service,
-            including payment and delivery of goods, and any other terms (such
-            as warranties) are solely between you and such advertisers. You
-            agree that Company shall not be responsible for any loss or damage
-            of any sort relating to your dealings with such advertisers.
-        </p>
-
-        <h2>14. Indemnity</h2>
-        <p>
-            You agree to defend, indemnify and hold harmless Company and its
-            subsidiaries, agents, licensors, managers, and other affiliated
-            companies, and their employees, contractors, agents, officers and
-            directors, from and against any and all claims, damages,
-            obligations, losses, liabilities, costs or debt, and expenses
-            (including but not limited to attorney’s fees) arising from: (i)
-            your use of and access to the Service, including any data or content
-            transmitted or received by you; (ii) your violation of any term of
-            this Agreement, including without limitation your breach of any of
-            the representations and warranties herein; (iii) your violation of
-            any third-party right, including without limitation any right of
-            privacy or Intellectual Property Rights; (iv) your violation of any
-            applicable law, rule or regulation; (v) any claim or damages that
-            arise as a result of any of your User Content or any User Content or
-            other information that is submitted via your account; or (vi) any
-            other party’s access and use of the Service with your unique
-            username, password or other appropriate security code.
-        </p>
-
-        <h2>15. No Warranty</h2>
-        <p>
-            THE SERVICE IS PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS. USE
-            OF THE SERVICE IS AT YOUR OWN RISK. TO THE MAXIMUM EXTENT PERMITTED
-            BY APPLICABLE LAW, THE SERVICE IS PROVIDED WITHOUT WARRANTIES OF ANY
-            KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
-            IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
-            PURPOSE, PRIVACY, SECURITY, ACCURACY, TIMELINESS, QUALITY, OR
-            NON-INFRINGEMENT. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN,
-            OBTAINED BY YOU FROM COMPANY OR THROUGH THE SERVICE WILL CREATE ANY
-            WARRANTY NOT EXPRESSLY STATED HEREIN. WITHOUT LIMITING THE
-            FOREGOING, COMPANY, ITS SUBSIDIARIES, ITS AFFILIATES, AND ITS
-            LICENSORS DO NOT WARRANT THAT: (I) THE SERVICE OR RESULTS THAT ARE
-            OBTAINED FROM USE OF THE SERVICE (E.G., DATA, INFORMATION, LOCATION,
-            CRASH DETECTION OR REPORTING, EMERGENCY ASSISTANCE, ETC.)WILL BE
-            ACCURATE, RELIABLE, ERROR-FREE OR CORRECT; (II) THE SERVICE OR
-            RESULTS THAT ARE OBTAINED FROM USE OF THE SERVICE WILL MEET YOUR
-            REQUIREMENTS; (III) THE SERVICE WILL BE AVAILABLE AT ANY PARTICULAR
-            TIME OR LOCATION, TIMELY, UNINTERRUPTED OR SECURE; (IV) ANY DEFECTS
-            OR ERRORS WILL BE CORRECTED; OR (V) THE SERVICE IS FREE OF VIRUSES
-            OR OTHER HARMFUL COMPONENTS. ANY CONTENT DOWNLOADED OR OTHERWISE
-            OBTAINED THROUGH THE USE OF THE SERVICE IS DOWNLOADED AT YOUR OWN
-            RISK AND YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR
-            COMPUTER SYSTEM OR MOBILE DEVICE OR LOSS OF DATA THAT RESULTS FROM
-            SUCH DOWNLOAD OR YOUR USE OF THE SERVICE. <br /><br />
-            COMPANY DOES NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME
-            RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A
-            THIRD PARTY THROUGH THE SERVICE OR ANY HYPERLINKED WEBSITE OR
-            SERVICE, AND COMPANY WILL NOT BE A PARTY TO OR IN ANY WAY MONITOR
-            ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR
-            SERVICES.
-            <br /><br />
-            Some states do not allow for the disclaimer of certain warranties,
-            so the disclaimers above may not apply to you.
-        </p>
-
-        <h2>16. Limitation of Liability</h2>
-        <p>
-            TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
-            COMPANY, ITS AFFILIATES, AGENTS, DIRECTORS, EMPLOYEES, SUPPLIERS OR
-            LICENSORS BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL,
-            SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, INCLUDING WITHOUT
-            LIMITATION DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER
-            INTANGIBLE LOSSES, THAT RESULT FROM THE USE OF, OR INABILITY TO USE,
-            THIS SERVICE. UNDER NO CIRCUMSTANCES WILL COMPANY BE RESPONSIBLE FOR
-            ANY DAMAGE, LOSS OR INJURY RESULTING FROM HACKING, TAMPERING OR
-            OTHER UNAUTHORIZED ACCESS OR USE OF THE SERVICE OR YOUR ACCOUNT OR
-            THE INFORMATION CONTAINED THEREIN. TO THE MAXIMUM EXTENT PERMITTED
-            BY APPLICABLE LAW, COMPANY ASSUMES NO LIABILITY OR RESPONSIBILITY
-            FOR ANY (I) ERRORS, OMISSIONS, MISTAKES, OR INACCURACIES FROM THE
-            SERVICE OR RESULTS THAT ARE OBTAINED FROM USE OF THE SERVICE (E.G.,
-            DATA, INFORMATION, LOCATION, CRASH DETECTION OR REPORTING, EMERGENCY
-            ASSISTANCE, ETC.); (II) PERSONAL INJURY, DEATH, OR PROPERTY DAMAGE,
-            OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO OR USE OF
-            OUR SERVICE; (III) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SERVERS
-            AND/OR ANY AND ALL PERSONAL INFORMATION STORED THEREIN; (IV) ANY
-            INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SERVICE;
-            (V) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE THAT MAY BE
-            TRANSMITTED TO OR THROUGH OUR SERVICE BY ANY THIRD PARTY; (VI) ANY
-            ERRORS OR OMISSIONS IN ANY CONTENT OR FOR ANY LOSS OR DAMAGE
-            INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, EMAILED,
-            TRANSMITTED, OR OTHERWISE MADE AVAILABLE THROUGH THE SERVICE; (VII)
-            USER CONTENT OR THE DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF ANY
-            THIRD PARTY; AND/OR (VIII) ANY ACTION OR INACTION OF THIRD PARTIES.
-            IN NO EVENT SHALL COMPANY, ITS AFFILIATES, AGENTS, DIRECTORS,
-            EMPLOYEES, SUPPLIERS, OR LICENSORS BE LIABLE TO YOU OR ANY USER FOR
-            ANY CLAIMS, PROCEEDINGS, LIABILITIES, OBLIGATIONS, DAMAGES, LOSSES
-            OR COSTS IN AN AMOUNT EXCEEDING THE AMOUNT YOU PAID TO COMPANY
-            HEREUNDER IN THE SIX MONTHS PRIOR TO THE EVENT GIVING RISE TO THE
-            LIABILITY, OR $100.00, WHICHEVER IS GREATER. <br /><br />
-            THIS LIMITATION OF LIABILITY SECTION APPLIES WHETHER THE ALLEGED
-            LIABILITY IS BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY,
-            OR ANY OTHER BASIS, EVEN IF COMPANY HAS BEEN ADVISED OF THE
-            POSSIBILITY OF SUCH DAMAGE. THE FOREGOING LIMITATION OF LIABILITY
-            SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE
-            JURISDICTION.
-            <br /><br />
-            SOME STATES DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES OR THE
-            EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO
-            THE ABOVE LIMITATIONS OR EXCLUSIONS MAY NOT APPLY TO YOU. THIS
-            AGREEMENT GIVES YOU SPECIFIC LEGAL RIGHTS, AND YOU MAY ALSO HAVE
-            OTHER RIGHTS WHICH VARY FROM STATE TO STATE. THE DISCLAIMERS,
-            EXCLUSIONS, AND LIMITATIONS OF LIABILITY UNDER THIS AGREEMENT WILL
-            NOT APPLY TO THE EXTENT PROHIBITED BY APPLICABLE LAW.
-            <br /><br />
-            The Service is controlled and operated from facilities in the United
-            States. Company makes no representations that the Service is
-            appropriate or available for use in other locations. Those who
-            access or use the Service from other jurisdictions do so at their
-            own volition and are entirely responsible for compliance with all
-            applicable United States and local laws and regulations, including
-            but not limited to export and import regulations. You may not use
-            the Service if you are a resident of a country embargoed by the
-            United States, or are a foreign person or entity blocked or denied
-            by the United States government. Unless otherwise explicitly stated,
-            all materials found on the Service are solely directed to
-            individuals, companies, or other entities located in the United
-            States.
-        </p>
-
-        <h2>17. General</h2>
-
-        <h3>A. Assignment.</h3>
-        <p>
-            This Agreement, and any rights and licenses granted hereunder, may
-            not be transferred or assigned by you, but may be assigned by
-            Company without restriction. Any attempted transfer or assignment in
-            violation hereof shall be null and void.
-        </p>
-        <h3>B. Notification Procedures and Changes to the Agreement.</h3>
-        <p>
-            Company may provide notifications, whether such notifications are
-            required by law or are for marketing or other business related
-            purposes, to you via email notice, written or hard copy notice, or
-            through posting of such notice on our website or mobile application,
-            as determined by Company in our sole discretion. Company reserves
-            the right to determine the form and means of providing notifications
-            to our Users, provided that you may opt out of certain means of
-            notification as described in this Agreement. Company is not
-            responsible for any automatic filtering you or your network provider
-            may apply to email notifications we send to the email address you
-            provide us. Company may, in its sole discretion, modify or update
-            this Agreement from time to time, and so you should review this page
-            periodically. When we change the Agreement in a material manner, we
-            will update the ‘last modified’ date at the bottom of this page.
-            Your continued use of the Service after any such change constitutes
-            your acceptance of the new Terms of Use. If you do not agree to any
-            of these terms or any future Terms of Use, do not use or access (or
-            continue to access) the Service.
-        </p>
-
-        <h3>C. Entire Agreement/Severability.</h3>
-        <p>
-            This Agreement, together with any amendments and any additional
-            agreements you may enter into with Company in connection with the
-            Service, shall constitute the entire agreement between you and
-            Company concerning the Service. If any provision of this Agreement
-            is deemed invalid by a court of competent jurisdiction, the
-            invalidity of such provision shall not affect the validity of the
-            remaining provisions of this Agreement, which shall remain in full
-            force and effect.
-        </p>
-        <h3>D. No Waiver.</h3>
-        <p>
-            No waiver of any term of this Agreement shall be deemed a further or
-            continuing waiver of such term or any other term, and Company’s
-            failure to assert any right or provision under this Agreement shall
-            not constitute a waiver of such right or provision.
-        </p>
-
-        <h3>E. Contact.</h3>
-        <p>
-            Please contact us
-            <a href="mailto:contact@flares.me">contact@flares.me</a> with any
-            questions regarding this Agreement.
-        </p>
-        <p>This Agreement was last modified on Dec 20, 2016.</p>
+        <footer>
+            <div class="container">Terms and Conditions for Flares</div>
+        </footer>
     </div>
 </template>
 <script>
 export default {};
 </script>
 <style>
+@import "../assets/css/privacy-policy.css";
 </style>
