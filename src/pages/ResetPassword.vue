@@ -86,6 +86,7 @@
                             </div>
                             <div class="form-group">
                                 <button
+                                    :disabled="submitted"
                                     type="submit"
                                     class="btn btn-danger btn-md shadow"
                                 >
@@ -115,6 +116,7 @@ export default {
             password: "",
             confirmPassword: "",
             submitted: false,
+            submitRsponse: {},
         };
     },
     validations: {
@@ -141,24 +143,18 @@ export default {
                             `${"auth/change-password"}`,
                         {
                             password: $vm.password,
-                            token: this.$route.query.key,
+                            token: $vm.$route.query.key,
                         }
                     )
                     .then((resp) => {
-                        $vm.$bvToast.toast("Success", {
-                            title: `Your password is reset sccuessfully`,
-                            variant: "success",
-                            autoHideDelay: 5000,
-                            appendToast: true,
-                        });
+                        console.log(resp);
+                        $vm.submitRsponse = resp.data.data;
+                        $vm.$swal($vm.submitRsponse.message);
                     })
                     .catch(function (err) {
-                        $vm.$bvToast.toast("Error", {
-                            title: `Invalid token`,
-                            variant: "error",
-                            autoHideDelay: 5000,
-                            appendToast: true,
-                        });
+                        $vm.submitRsponse = err.response.data;
+                        console.log(err);
+                        $vm.$swal($vm.submitRsponse.error);
                     });
             }
         },

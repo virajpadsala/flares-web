@@ -14,6 +14,7 @@ import Home from "@/pages/Home.vue";
 import Privacy from "@/pages/Privacy.vue";
 import Terms from "@/pages/terms.vue";
 import ResetPassword from "@/pages/ResetPassword.vue";
+import MapsView from "@/pages/MapsView.vue";
 
 const routes = [
   {
@@ -31,6 +32,10 @@ const routes = [
   {
     path: "/reset-password",
     component: ResetPassword
+  },
+  {
+    path: "/map",
+    component: MapsView
   },
   {
     path: "/admin",

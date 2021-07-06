@@ -505,11 +505,17 @@
                         &copy; Flares 2021. All Rights Reserved.
                     </div>
                     <!-- <sidebar-link to="/privacy-policy" name="Privacy" /> -->
-                    <a href="/privacy-policy">Privacy</a>
+                    <router-link to="privacy-policy"
+                        >Privacy Policy</router-link
+                    >
+                    <!-- <a href="/privacy-policy">Privacy</a> -->
                     <span class="mx-1">&middot;</span>
-                    <a href="/term-of-condition">Terms</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">FAQ</a>
+                    <router-link to="term-of-condition"
+                        >Terms & conditions</router-link
+                    >
+                    <!-- <a href="/term-of-condition">Terms</a> -->
+                    <!-- <span class="mx-1">&middot;</span> -->
+                    <!-- <a href="#!">FAQ</a> -->
                 </div>
             </div>
         </footer>
