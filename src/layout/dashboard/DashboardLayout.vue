@@ -2,11 +2,7 @@
     <div class="wrapper">
         <side-bar>
             <template slot="links">
-                <sidebar-link
-                    to="/admin/dashboard"
-                    name="Dashboard"
-                    icon="ti-panel"
-                />
+                <sidebar-link to="/admin" name="Dashboard" icon="ti-panel" />
                 <sidebar-link
                     to="/admin/stats"
                     name="User Profile"
@@ -20,30 +16,15 @@
                 <sidebar-link to="/admin/maps" name="Map" icon="ti-map" />
             </template>
             <mobile-menu>
-                <li class="nav-item">
-                    <a class="nav-link">
-                        <i class="ti-panel"></i>
-                        <p>Stats</p>
-                    </a>
-                </li>
                 <drop-down
                     class="nav-item"
-                    title="5 Notifications"
                     title-classes="nav-link"
                     icon="ti-bell"
                 >
-                    <a class="dropdown-item">Notification 1</a>
-                    <a class="dropdown-item">Notification 2</a>
-                    <a class="dropdown-item">Notification 3</a>
-                    <a class="dropdown-item">Notification 4</a>
-                    <a class="dropdown-item">Another notification</a>
+                    <a class="dropdown-item">Notification</a>
+                    <a class="dropdown-item" @click="logout()">Logout</a>
                 </drop-down>
-                <li class="nav-item">
-                    <a class="nav-link">
-                        <i class="ti-settings"></i>
-                        <p>Settings</p>
-                    </a>
-                </li>
+
                 <li class="divider"></li>
             </mobile-menu>
         </side-bar>
@@ -76,6 +57,10 @@ export default {
             if (this.$sidebar.showSidebar) {
                 this.$sidebar.displaySidebar(false);
             }
+        },
+        logout() {
+            localStorage.clear();
+            this.$router.push({ name: "admin-login" });
         },
     },
 };

@@ -10,4 +10,14 @@ const router = new VueRouter({
   linkActiveClass: "active"
 });
 
+router.beforeEach((to, from, next) => {
+  let isAuthenticated = localStorage.getItem("user");
+  if (
+    to.name !== "admin-login" &&
+    to.path.indexOf("admin") >= 0 &&
+    !isAuthenticated
+  )
+    next({ name: "admin-login" });
+  else next();
+});
 export default router;

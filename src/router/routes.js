@@ -15,35 +15,47 @@ import Privacy from "@/pages/Privacy.vue";
 import Terms from "@/pages/terms.vue";
 import ResetPassword from "@/pages/ResetPassword.vue";
 import MapsView from "@/pages/MapsView.vue";
+import Login from "@/pages/Login.vue";
 
 const routes = [
   {
     path: "/",
+    name: "home",
     component: Home
   },
   {
     path: "/privacy-policy",
+    name: "privacy-policy",
     component: Privacy
   },
   {
     path: "/term-of-condition",
+    name: "term-of-condition",
     component: Terms
   },
   {
     path: "/reset-password",
+    name: "reset-password",
     component: ResetPassword
   },
   {
     path: "/map",
+    name: "map",
     component: MapsView
   },
   {
+    path: "/admin/login",
+    name: "admin-login",
+    component: Login
+  },
+  {
     path: "/admin",
+    name:"admin",
     component: DashboardLayout,
     redirect: "/dashboard",
     children: [
       {
-        path: "dashboard",
+        path: "",
         name: "dashboard",
         component: Dashboard
       },

@@ -147,13 +147,13 @@ export default {
                         }
                     )
                     .then((resp) => {
-                        console.log(resp);
+                        // console.log(resp);
                         $vm.submitRsponse = resp.data.data;
                         $vm.$swal($vm.submitRsponse.message);
                     })
                     .catch(function (err) {
                         $vm.submitRsponse = err.response.data;
-                        console.log(err);
+                        // console.log(err);
                         $vm.$swal($vm.submitRsponse.error);
                     });
             }
