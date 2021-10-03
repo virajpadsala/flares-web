@@ -13,10 +13,11 @@
         </nav>
         <header class="masthead">
             <div class="container px-5" id="home">
-                <card class="card-map" title="Google Maps">
+                <card class="card-map" :title="this.user.firstName + ' ' + this.user.lastName + ' share location with you.' " :sub-title="'Please download app link from below for live location.'">
                     <div class="map">
                         <div id="map"></div>
                     </div>
+                    
                 </card>
             </div>
         </header>
@@ -79,10 +80,23 @@
 </template>
 <script>
 export default {
+    data() {
+        return {
+            user: {},
+            lat: 40.748817, 
+            lng: -73.985428
+        };
+    },
+    beforeMount() {
+        this.user ={
+            firstName: 'Viraj',
+            lastName: 'Padsala'
+        }
+    },
     mounted() {
-        var myLatlng = new window.google.maps.LatLng(40.748817, -73.985428);
+        var myLatlng = new window.google.maps.LatLng(this.lat, this.lng);
         var mapOptions = {
-            zoom: 13,
+            zoom: 15,
             center: myLatlng,
             scrollwheel: false, // we disable de scroll over the map, it is a really annoing when you scroll through page
             styles: [
@@ -153,7 +167,7 @@ export default {
 
         var marker = new window.google.maps.Marker({
             position: myLatlng,
-            title: "Hello World!",
+            title: this.user.firstName + ' ' + this.user.lastName,
         });
 
         // To add the marker to the map, call setMap();
